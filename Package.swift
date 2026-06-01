@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "TextureBridging", targets: ["TextureBridging"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/FluidGroup/Texture.git", from: "3.0.2"),
+    .package(url: "https://github.com/JohnEstropia/Texture.git", branch: "main"),
   ],
   targets: [
     .target(
